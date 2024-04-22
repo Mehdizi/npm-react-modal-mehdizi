@@ -1,0 +1,56 @@
+.modal-dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(180, 18%, 28%);
+  opacity: 50%;
+  z-index: 2;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1.25rem;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: hsl(183, 50%, 50%);
+  border-radius: 5px;
+  /* z-index: 3; */
+}
+
+.modal-message {
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-cross {
+  position: absolute;
+  left: 93%;
+  top: -18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgb(116, 96, 96);
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
