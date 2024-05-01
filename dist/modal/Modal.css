@@ -12,6 +12,7 @@
 }
 
 .modal-background {
+  position: fixed;
   width: 100vw;
   height: 100vh;
   background-color: hsl(180, 18%, 28%);
