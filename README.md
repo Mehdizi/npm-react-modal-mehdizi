@@ -26,12 +26,15 @@ const { isOpen, handleToggleModal } = useModal();
 You can then render the `Modal` component like any other React component in JSX.
 with the message props of your choice :
 
+```jsx
 <Modal
         message="Message of your choice !"
         isOpen={isOpen}
         handleCloseModal={handleToggleModal}
       />
-
+```
 Apply the handleToggleModal to the button of your choice on the onClick method
 
+```jsx
 <Button onClick={handleToggleModal}>Toggle modal here !<Button>
+```
