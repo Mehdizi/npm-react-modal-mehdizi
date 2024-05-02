@@ -34,8 +34,4 @@ with the message props of your choice :
 
 Apply the handleToggleModal to the button of your choice on the onClick method
 
-<Button
-        message="Message of your choice !"
-        isOpen={isOpen}
-        handleCloseModal={handleToggleModal}
-      >Toggle modal here !<Button>
+<Button onClick={handleToggleModal}>Toggle modal here !<Button>
